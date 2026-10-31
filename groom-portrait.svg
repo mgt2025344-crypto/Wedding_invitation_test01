@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Illustrated groom portrait">
+  <defs>
+    <linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f0e0"/>
+      <stop offset="1" stop-color="#e9dcc3"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgG)"/>
+  <circle cx="150" cy="190" r="120" fill="#fff" opacity=".35"/>
+  <!-- jacket -->
+  <path d="M30 400 C34 330 80 296 120 288 L180 288 C220 296 266 330 270 400Z" fill="#4a4140"/>
+  <!-- shirt -->
+  <path d="M118 288 L150 372 L182 288 L168 262 L132 262Z" fill="#ffffff"/>
+  <!-- lapels -->
+  <path d="M118 288 L150 384 L96 330 L98 300Z" fill="#3b3433"/>
+  <path d="M182 288 L150 384 L204 330 L202 300Z" fill="#3b3433"/>
+  <!-- neck -->
+  <rect x="136" y="232" width="28" height="40" fill="#f3d2b8"/>
+  <path d="M126 272 L150 296 L174 272 L162 262 L150 276 L138 262Z" fill="#ffffff"/>
+  <!-- bow tie -->
+  <path d="M126 292 L150 302 L174 292 L174 318 L150 308 L126 318Z" fill="#8f6d3a"/>
+  <circle cx="150" cy="305" r="6" fill="#b8935a"/>
+  <!-- boutonniere -->
+  <circle cx="108" cy="338" r="9" fill="#ecc9c0"/>
+  <ellipse cx="100" cy="350" rx="5" ry="11" fill="#7d9a6a" transform="rotate(30 100 350)"/>
+  <!-- head + ears -->
+  <ellipse cx="98" cy="186" rx="7" ry="12" fill="#efc7aa"/>
+  <ellipse cx="202" cy="186" rx="7" ry="12" fill="#efc7aa"/>
+  <ellipse cx="150" cy="178" rx="52" ry="62" fill="#f3d2b8"/>
+  <!-- hair -->
+  <path d="M97 170 C90 108 124 86 154 88 C194 90 210 124 203 170 C198 140 178 122 150 122 C122 122 102 142 97 170Z" fill="#3a2a22"/>
+  <!-- face -->
+  <path d="M124 186 q9 7 18 0 M158 186 q9 7 18 0" stroke="#3a2a22" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M120 168 l24 -5 M156 163 l24 5" stroke="#3a2a22" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M150 190 q-4 10 2 12" stroke="#e0b499" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M132 216 q18 15 36 0" stroke="#b86b5e" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <circle cx="120" cy="204" r="8" fill="#f1a9a0" opacity=".45"/>
+  <circle cx="180" cy="204" r="8" fill="#f1a9a0" opacity=".45"/>
+</svg>

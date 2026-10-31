@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Illustrated bride portrait">
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f0e0"/>
+      <stop offset="1" stop-color="#e9dcc3"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgB)"/>
+  <circle cx="150" cy="190" r="120" fill="#fff" opacity=".35"/>
+  <!-- veil -->
+  <path d="M150 66 C82 76 62 220 42 400 L258 400 C238 220 218 76 150 66Z" fill="#ffffff" opacity=".6" stroke="#e8d9b8" stroke-width="2"/>
+  <!-- dress -->
+  <path d="M44 400 C50 332 92 302 122 294 L178 294 C208 302 250 332 256 400Z" fill="#fffaf1" stroke="#d9bf8c" stroke-width="2.5"/>
+  <path d="M122 294 C132 322 168 322 178 294" fill="none" stroke="#d9bf8c" stroke-width="2"/>
+  <!-- neck + chest -->
+  <path d="M122 294 C132 320 168 320 178 294 L170 262 L130 262Z" fill="#f3d2b8"/>
+  <rect x="136" y="232" width="28" height="42" fill="#f3d2b8"/>
+  <!-- necklace -->
+  <path d="M128 276 C140 296 160 296 172 276" fill="none" stroke="#d9bf8c" stroke-width="2.5" stroke-dasharray="1 6" stroke-linecap="round"/>
+  <!-- head -->
+  <ellipse cx="150" cy="180" rx="52" ry="62" fill="#f3d2b8"/>
+  <!-- hair -->
+  <path d="M97 178 C90 108 130 82 160 88 C198 94 210 130 203 178 C196 142 172 122 150 124 C124 126 104 148 97 178Z" fill="#6b4a35"/>
+  <circle cx="150" cy="86" r="22" fill="#6b4a35"/>
+  <!-- flowers -->
+  <circle cx="108" cy="124" r="9" fill="#ecc9c0"/>
+  <circle cx="124" cy="106" r="8" fill="#ffffff" stroke="#e8d9b8"/>
+  <circle cx="146" cy="98" r="8" fill="#e9c98f"/>
+  <circle cx="170" cy="104" r="8" fill="#ecc9c0"/>
+  <circle cx="188" cy="122" r="8" fill="#ffffff" stroke="#e8d9b8"/>
+  <!-- face -->
+  <path d="M124 188 q9 7 18 0 M158 188 q9 7 18 0" stroke="#5a3e2e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M122 174 q10 -5 20 -1 M158 173 q10 -4 20 1" stroke="#6b4a35" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M150 192 q-4 10 2 12" stroke="#e0b499" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M133 218 q17 14 34 0" stroke="#c4776a" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <circle cx="120" cy="206" r="8" fill="#f1a9a0" opacity=".5"/>
+  <circle cx="180" cy="206" r="8" fill="#f1a9a0" opacity=".5"/>
+</svg>

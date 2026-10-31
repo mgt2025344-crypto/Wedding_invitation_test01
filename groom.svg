@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 420" role="img" aria-label="Illustrated groom">
+  <!-- ground shadow -->
+  <ellipse cx="100" cy="408" rx="64" ry="8" fill="#b8935a" opacity=".18"/>
+  <!-- legs + shoes -->
+  <rect x="77" y="262" width="21" height="138" rx="3" fill="#3b3433"/>
+  <rect x="102" y="262" width="21" height="138" rx="3" fill="#3b3433"/>
+  <ellipse cx="86" cy="402" rx="17" ry="6" fill="#241f1e"/>
+  <ellipse cx="114" cy="402" rx="17" ry="6" fill="#241f1e"/>
+  <!-- arms (sleeves) -->
+  <path d="M68 120 C54 160 52 220 56 266 L72 266 C72 222 76 172 84 132Z" fill="#4a4140"/>
+  <path d="M132 120 C146 160 148 220 144 266 L128 266 C128 222 124 172 116 132Z" fill="#4a4140"/>
+  <circle cx="64" cy="272" r="8" fill="#f3d2b8"/>
+  <circle cx="136" cy="272" r="8" fill="#f3d2b8"/>
+  <!-- jacket -->
+  <path d="M68 120 C68 108 82 102 100 102 C118 102 132 108 132 120 L138 276 L62 276Z" fill="#4a4140"/>
+  <!-- shirt -->
+  <path d="M86 102 L100 168 L114 102Z" fill="#ffffff"/>
+  <!-- lapels -->
+  <path d="M86 102 L100 172 L76 142 L80 112Z" fill="#3b3433"/>
+  <path d="M114 102 L100 172 L124 142 L120 112Z" fill="#3b3433"/>
+  <!-- buttons -->
+  <circle cx="100" cy="196" r="2.4" fill="#d9bf8c"/>
+  <circle cx="100" cy="222" r="2.4" fill="#d9bf8c"/>
+  <!-- pocket square + boutonniere -->
+  <path d="M110 150 l12 -2 l1 8 l-13 1z" fill="#fffaf1" stroke="#e8d9b8"/>
+  <circle cx="82" cy="140" r="5" fill="#ecc9c0"/>
+  <ellipse cx="78" cy="146" rx="3" ry="6" fill="#7d9a6a" transform="rotate(30 78 146)"/>
+  <!-- neck + collar -->
+  <rect x="94" y="86" width="12" height="22" fill="#f3d2b8"/>
+  <path d="M88 102 L100 114 L112 102 L106 98 L100 104 L94 98Z" fill="#ffffff"/>
+  <!-- bow tie -->
+  <path d="M90 112 L100 117 L110 112 L110 124 L100 119 L90 124Z" fill="#8f6d3a"/>
+  <circle cx="100" cy="118" r="3" fill="#b8935a"/>
+  <!-- head -->
+  <ellipse cx="100" cy="68" rx="21" ry="25" fill="#f3d2b8"/>
+  <ellipse cx="79" cy="70" rx="3.5" ry="6" fill="#efc7aa"/>
+  <ellipse cx="121" cy="70" rx="3.5" ry="6" fill="#efc7aa"/>
+  <!-- hair -->
+  <path d="M79 64 C76 38 96 30 110 34 C126 38 125 56 121 66 C116 54 100 50 88 54 C84 56 80 60 79 64Z" fill="#3a2a22"/>
+  <!-- face -->
+  <path d="M89 70 q4 3 8 0 M103 70 q4 3 8 0" stroke="#3a2a22" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M86 63 l9 -2 M105 61 l9 2" stroke="#3a2a22" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M93 82 q7 6 14 0" stroke="#b86b5e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="86" cy="78" r="4" fill="#f1a9a0" opacity=".45"/>
+  <circle cx="114" cy="78" r="4" fill="#f1a9a0" opacity=".45"/>
+</svg>

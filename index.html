@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Change page title and description here -->
+  <title>Emma &amp; James — Wedding Invitation</title>
+  <meta name="description" content="You are invited to the wedding of Emma Rose and James Wilson on 25 December 2026.">
+  <meta name="theme-color" content="#fbf7ef">
+
+  <!-- Change fonts here (also update fonts in style.css) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <noscript><style>.welcome { display: none; }</style></noscript>
+
+  <!-- Reusable decorations and icons (do not remove) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="flower" viewBox="0 0 100 100">
+        <g fill="currentColor" fill-opacity=".75">
+          <ellipse cx="50" cy="24" rx="11" ry="22"/>
+          <ellipse cx="50" cy="24" rx="11" ry="22" transform="rotate(60 50 50)"/>
+          <ellipse cx="50" cy="24" rx="11" ry="22" transform="rotate(120 50 50)"/>
+          <ellipse cx="50" cy="24" rx="11" ry="22" transform="rotate(180 50 50)"/>
+          <ellipse cx="50" cy="24" rx="11" ry="22" transform="rotate(240 50 50)"/>
+          <ellipse cx="50" cy="24" rx="11" ry="22" transform="rotate(300 50 50)"/>
+        </g>
+        <circle cx="50" cy="50" r="9" fill="#fff" fill-opacity=".85"/>
+        <circle cx="50" cy="50" r="4" fill="currentColor"/>
+      </symbol>
+
+      <symbol id="sprig" viewBox="0 0 200 200">
+        <path d="M8 194 C56 150 112 104 170 34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <g fill="currentColor">
+          <ellipse cx="28" cy="156" rx="5" ry="14" transform="rotate(-30 28 156)"/>
+          <ellipse cx="50" cy="180" rx="5" ry="14" transform="rotate(60 50 180)"/>
+          <ellipse cx="52" cy="134" rx="5" ry="14" transform="rotate(-30 52 134)"/>
+          <ellipse cx="74" cy="158" rx="5" ry="14" transform="rotate(60 74 158)"/>
+          <ellipse cx="80" cy="110" rx="5" ry="14" transform="rotate(-30 80 110)"/>
+          <ellipse cx="102" cy="134" rx="5" ry="14" transform="rotate(60 102 134)"/>
+          <ellipse cx="108" cy="84" rx="5" ry="14" transform="rotate(-30 108 84)"/>
+          <ellipse cx="130" cy="108" rx="5" ry="14" transform="rotate(60 130 108)"/>
+          <ellipse cx="134" cy="54" rx="5" ry="14" transform="rotate(-30 134 54)"/>
+          <ellipse cx="156" cy="78" rx="5" ry="14" transform="rotate(60 156 78)"/>
+        </g>
+        <use href="#flower" x="150" y="0" width="46" height="46"/>
+      </symbol>
+
+      <symbol id="icon-calendar" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>
+        </g>
+      </symbol>
+      <symbol id="icon-sun" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>
+        </g>
+      </symbol>
+      <symbol id="icon-rings" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="15" r="5"/><circle cx="15" cy="15" r="5"/><path d="M12 2.5l2 2-2 2-2-2z"/>
+        </g>
+      </symbol>
+      <symbol id="icon-glass" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 3h8l-1 7a3 3 0 0 1-6 0z"/><path d="M12 13v7M9 21h6"/>
+        </g>
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+
+  <!-- ===================================================== -->
+  <!-- SECTION 01 — OPENING / WELCOME SCREEN                  -->
+  <!-- ===================================================== -->
+  <section class="welcome" id="welcome" aria-label="Welcome">
+
+    <div class="petals" aria-hidden="true"></div>
+
+    <!-- Corner florals -->
+    <div class="deco deco--tl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+    <div class="deco deco--tr" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+    <div class="deco deco--bl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+    <div class="deco deco--br" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+
+    <!-- Floating blooms -->
+    <svg class="bloom bloom--1" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+    <svg class="bloom bloom--2" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+    <svg class="bloom bloom--3" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+    <svg class="bloom bloom--4" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+
+    <div class="welcome__text">
+      <!-- Change welcome text here -->
+      <p class="eyebrow welcome__eyebrow">The Wedding of Emma &amp; James</p>
+      <h1 class="welcome__title">You're Invited</h1>
+    </div>
+
+    <!-- Change bride and groom illustration paths here -->
+    <div class="welcome__stage">
+      <img class="character character--bride" src="./bride.svg" alt="Illustrated bride in a white gown holding a bouquet" width="200" height="420">
+      <img class="character character--groom" src="./groom.svg" alt="Illustrated groom in a dark suit with a gold bow tie" width="200" height="420">
+    </div>
+
+    <button class="btn welcome__btn" id="openBtn" type="button">Open Invitation</button>
+  </section>
+
+
+  <main id="main">
+
+    <!-- ===================================================== -->
+    <!-- SECTION 02 — MAIN INVITATION                           -->
+    <!-- ===================================================== -->
+    <section class="section invitation" id="invitation" aria-labelledby="invite-title">
+      <div class="deco deco--tl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--tr" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--bl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--br" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+
+      <div class="invitation__content">
+        <p class="eyebrow reveal" data-anim="up" style="--delay:.6s">Together with their families</p>
+
+        <h2 class="visually-hidden" id="invite-title">Wedding invitation of Emma Rose and James Wilson</h2>
+
+        <!-- Change couple names here -->
+        <p class="invitation__name reveal" data-anim="up" style="--delay:.9s">Emma Rose</p>
+        <p class="invitation__and reveal" data-anim="up" style="--delay:1.2s">and</p>
+        <p class="invitation__name reveal" data-anim="up" style="--delay:1.5s">James Wilson</p>
+
+        <div class="ornament reveal" data-anim="fade" style="--delay:1.8s" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#flower"/></svg>
+        </div>
+
+        <!-- Change invitation message here -->
+        <p class="invitation__message reveal" data-anim="up" style="--delay:2s">
+          Request the pleasure of your company as they celebrate their wedding.
+        </p>
+
+        <!-- Change wedding date here -->
+        <p class="invitation__date reveal" data-anim="up" style="--delay:2.3s">25 December 2026</p>
+
+        <a class="scroll-cue reveal" data-anim="fade" style="--delay:2.8s" href="#couple">Scroll</a>
+      </div>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SECTION 03 — COUPLE INTRODUCTION                       -->
+    <!-- ===================================================== -->
+    <section class="section couple" id="couple" aria-labelledby="couple-title">
+      <header class="section__header">
+        <p class="eyebrow reveal" data-anim="up">Meet the couple</p>
+        <h2 class="section__title reveal" data-anim="up" style="--delay:.1s" id="couple-title">Bride &amp; Groom</h2>
+        <div class="ornament reveal" data-anim="fade" style="--delay:.2s" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#flower"/></svg>
+        </div>
+      </header>
+
+      <div class="couple__grid">
+
+        <!-- Bride -->
+        <article class="profile">
+          <!-- Change bride image here -->
+          <div class="profile__frame reveal" data-anim="left">
+            <img src="./bride-portrait.svg" alt="Portrait of Emma Rose, the bride" width="300" height="400" loading="lazy">
+            <svg class="profile__flower" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+          </div>
+          <p class="profile__role reveal" data-anim="up" style="--delay:.35s">The Bride</p>
+          <h3 class="profile__name reveal" data-anim="up" style="--delay:.5s">Emma Rose</h3>
+          <p class="profile__text reveal" data-anim="up" style="--delay:.65s">
+            A beautiful soul who brings happiness and warmth to everyone around her.
+          </p>
+        </article>
+
+        <div class="couple__amp reveal" data-anim="fade" style="--delay:.4s" aria-hidden="true">&amp;</div>
+
+        <!-- Groom -->
+        <article class="profile">
+          <!-- Change groom image here -->
+          <div class="profile__frame reveal" data-anim="right" style="--delay:.15s">
+            <img src="./groom-portrait.svg" alt="Portrait of James Wilson, the groom" width="300" height="400" loading="lazy">
+            <svg class="profile__flower" viewBox="0 0 100 100" aria-hidden="true"><use href="#flower"/></svg>
+          </div>
+          <p class="profile__role reveal" data-anim="up" style="--delay:.5s">The Groom</p>
+          <h3 class="profile__name reveal" data-anim="up" style="--delay:.65s">James Wilson</h3>
+          <p class="profile__text reveal" data-anim="up" style="--delay:.8s">
+            A kind-hearted person who believes in love, laughter, and lifelong memories.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SECTION 04 — WEDDING DETAILS                           -->
+    <!-- ===================================================== -->
+    <section class="section details" id="details" aria-labelledby="details-title">
+      <header class="section__header">
+        <p class="eyebrow reveal" data-anim="up">Save the date</p>
+        <h2 class="section__title reveal" data-anim="up" style="--delay:.1s" id="details-title">Wedding Details</h2>
+        <div class="ornament reveal" data-anim="fade" style="--delay:.2s" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#flower"/></svg>
+        </div>
+      </header>
+
+      <!-- Change wedding details here -->
+      <ul class="details__list">
+        <li class="reveal" data-anim="up" style="--delay:.1s">
+          <article class="detail-card">
+            <div class="detail-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-calendar"/></svg></div>
+            <h3 class="detail-card__label">Date</h3>
+            <p class="detail-card__value">25 December 2026</p>
+          </article>
+        </li>
+        <li class="reveal" data-anim="up" style="--delay:.2s">
+          <article class="detail-card">
+            <div class="detail-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-sun"/></svg></div>
+            <h3 class="detail-card__label">Day</h3>
+            <p class="detail-card__value">Friday</p>
+          </article>
+        </li>
+        <li class="reveal" data-anim="up" style="--delay:.3s">
+          <article class="detail-card">
+            <div class="detail-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-rings"/></svg></div>
+            <h3 class="detail-card__label">Ceremony</h3>
+            <p class="detail-card__value">10:00 AM</p>
+          </article>
+        </li>
+        <li class="reveal" data-anim="up" style="--delay:.4s">
+          <article class="detail-card">
+            <div class="detail-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-glass"/></svg></div>
+            <h3 class="detail-card__label">Reception</h3>
+            <p class="detail-card__value">6:00 PM</p>
+          </article>
+        </li>
+        <li class="reveal" data-anim="up" style="--delay:.5s">
+          <article class="detail-card">
+            <div class="detail-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-pin"/></svg></div>
+            <h3 class="detail-card__label">Venue</h3>
+            <p class="detail-card__value">The Grand Ballroom</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SECTION 05 — COUNTDOWN                                 -->
+    <!-- ===================================================== -->
+    <section class="section countdown" id="countdown" aria-labelledby="countdown-title">
+      <header class="section__header">
+        <p class="eyebrow reveal" data-anim="up">Counting the moments</p>
+        <h2 class="section__title reveal" data-anim="up" style="--delay:.1s" id="countdown-title">Until We Say &ldquo;I Do&rdquo;</h2>
+      </header>
+
+      <div class="countdown__grid" id="countdownGrid" role="timer" aria-label="Time remaining until the wedding">
+        <div class="countdown__box reveal" data-anim="up" style="--delay:.1s">
+          <span class="countdown__number" id="cdDays">00</span>
+          <span class="countdown__label">Days</span>
+        </div>
+        <div class="countdown__box reveal" data-anim="up" style="--delay:.2s">
+          <span class="countdown__number" id="cdHours">00</span>
+          <span class="countdown__label">Hours</span>
+        </div>
+        <div class="countdown__box reveal" data-anim="up" style="--delay:.3s">
+          <span class="countdown__number" id="cdMinutes">00</span>
+          <span class="countdown__label">Minutes</span>
+        </div>
+        <div class="countdown__box reveal" data-anim="up" style="--delay:.4s">
+          <span class="countdown__number" id="cdSeconds">00</span>
+          <span class="countdown__label">Seconds</span>
+        </div>
+      </div>
+
+      <!-- Change message shown when countdown ends -->
+      <p class="countdown__message" id="cdMessage" hidden>Today is the special day!</p>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SECTION 06 — VENUE / LOCATION                          -->
+    <!-- ===================================================== -->
+    <section class="section venue" id="venue" aria-labelledby="venue-title">
+      <header class="section__header">
+        <p class="eyebrow reveal" data-anim="up">Where to find us</p>
+        <h2 class="section__title reveal" data-anim="up" style="--delay:.1s" id="venue-title">The Venue</h2>
+        <div class="ornament reveal" data-anim="fade" style="--delay:.2s" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#flower"/></svg>
+        </div>
+      </header>
+
+      <div class="venue__card reveal" data-anim="up" style="--delay:.2s">
+        <div class="venue__info">
+          <!-- Change venue name and address here -->
+          <h3 class="venue__name">The Grand Ballroom</h3>
+          <p class="venue__address">123 Garden Road, Colombo, Sri Lanka</p>
+
+          <!-- Change directions link here (paste your Google Maps link) -->
+          <a class="btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=123+Garden+Road+Colombo+Sri+Lanka" target="_blank" rel="noopener noreferrer">Get Directions</a>
+        </div>
+
+        <!-- Replace the map src with your Google Maps embed URL -->
+        <div class="venue__map">
+          <iframe
+            title="Map showing The Grand Ballroom location"
+            src="https://www.google.com/maps?q=123+Garden+Road+Colombo+Sri+Lanka&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================================================== -->
+    <!-- SECTION 07 — THANK YOU                                 -->
+    <!-- ===================================================== -->
+    <section class="section thanks" id="thanks" aria-labelledby="thanks-title">
+      <div class="deco deco--tl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--tr" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--bl" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+      <div class="deco deco--br" aria-hidden="true"><svg viewBox="0 0 200 200"><use href="#sprig"/></svg></div>
+
+      <div class="thanks__content">
+        <div class="ornament ornament--large reveal" data-anim="fade" aria-hidden="true">
+          <svg viewBox="0 0 100 100"><use href="#flower"/></svg>
+        </div>
+
+        <!-- Change thank you text here -->
+        <h2 class="thanks__title reveal" data-anim="up" style="--delay:.2s" id="thanks-title">Thank You</h2>
+        <p class="thanks__message reveal" data-anim="up" style="--delay:.4s">
+          We look forward to celebrating this special day with you.
+        </p>
+        <p class="thanks__names reveal" data-anim="up" style="--delay:.6s">Emma &amp; James</p>
+        <p class="thanks__date reveal" data-anim="up" style="--delay:.8s">25 December 2026</p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
